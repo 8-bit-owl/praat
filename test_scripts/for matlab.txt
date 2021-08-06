@@ -1,0 +1,4 @@
+tmppraatwav_psc='testPRAATscript.psc';
+tmppraatwav='testAUDIOfile';
+commstring = ['praatcon ' tmppraatwav_psc ' ' tmppraatwav '.wav'];
+[s, w] = dos(commstring,'-echo');
